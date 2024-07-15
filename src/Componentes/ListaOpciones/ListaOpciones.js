@@ -1,10 +1,5 @@
 import "./ListaOpciones.css"
 
-const categorias = [
-    "Front-End",
-    "programacion"
-]
-
 const ListaOpciones = (props) => {
     const manejarCambio = (e) => {
         props.actualizarCategoria(e.target.value)
@@ -14,7 +9,7 @@ const ListaOpciones = (props) => {
         <label>Categorias</label>
         <select value={props.valor} onChange={manejarCambio}>
             <option value="" disabled defaultValue="" hidden>Seleccionar Categoria</option>
-            {categorias.map((categoria, index) => <option key={index} value={categoria}>{categoria}</option>)}
+            {props.categorias.map((categoria, index) => <option key={index} value={categoria.id}>{categoria.titulo}</option>)}
         </select>
     </div>
 }
