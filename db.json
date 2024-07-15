@@ -1,0 +1,12 @@
+{
+    "Video":[
+        {
+            "id": "1",
+            "titulo": "Mi primer Video",
+            "categoria": "Front-End",
+            "imagen": "",
+            "video": "https://youtu.be/86fJXRuP6Ko",
+            "descripcion": "Video de prueba"
+        }
+    ]
+}
