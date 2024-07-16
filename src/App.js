@@ -25,8 +25,8 @@ function App() {
 
   const [colaboradores, actualizarColaboradores] = useState([])
 
-  const registrarColaborador = (colaborador) => {
-    actualizarColaboradores([...colaboradores, colaborador])
+  const registrarColaborador = async (colaborador) => {
+    await actualizarColaboradores([...colaboradores, colaborador])
     post("/Video", colaborador)
   }
 
