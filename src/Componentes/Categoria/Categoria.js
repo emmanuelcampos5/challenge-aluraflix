@@ -10,7 +10,7 @@ const Categoria = (props) =>{
         <h3 style={{background: colorPrimario}}>{titulo}</h3>
         <div className="colaboradores">
             {
-                colaboradores.map((colaborador) => <Colaborador datos = {colaborador}></Colaborador>)
+                colaboradores.map((colaborador) => <Colaborador key={colaborador.id} datos = {colaborador}></Colaborador>)
             }
         </div>
     </section>
