@@ -1,15 +1,10 @@
 .card{
     background-color: #000000;
-    box-shadow: 0px 0px 17px 8px #6BD1FF inset;
-}
-
-.imagen{
-    border: 5px solid #6BD1FF;
 }
 
 .card-body{
-    border: 5px solid #6BD1FF;
     text-align: center;
+    border-radius: 0 0 10px 10px;
 }
 
 .btn{

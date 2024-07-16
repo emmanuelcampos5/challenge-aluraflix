@@ -10,6 +10,13 @@ export const buscar = async (url, setData) => {
 }
 
 export const post = async (url, datosEnviar) => {
-    const respuesta = await api.post(url, datosEnviar);
-    console.log(respuesta.data);
+    await api.post(url, datosEnviar);
+}
+
+export const borrar = async (url, id) => {
+    await api.delete(url, id);
+}
+
+export const actualizar = async (url, datosEnviar) => {
+    await api.put(url, datosEnviar);
 }

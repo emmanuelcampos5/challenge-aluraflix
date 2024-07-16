@@ -2,13 +2,13 @@ import Home from './Pages/Home';
 import ErrorPage from './Pages/ErrorPage';
 import Header from './Componentes/Header/Header';
 import Formulario from './Componentes/FormularioVideo/FormularioVideo';
-import {buscar, post} from './Api/Api';
+import {buscar, post, borrar, actualizar} from './Api/Api';
 
 import { Route, BrowserRouter as Router, Routes } from 'react-router-dom';
 import { useEffect, useState } from 'react';
 
 function App() {
-  const [categorias, actualizarCategorias] = useState([
+  const [categorias] = useState([
     {
       titulo: "FRONT END",
       colorPrimario: "#6BD1FF",

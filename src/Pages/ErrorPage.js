@@ -1,4 +1,4 @@
-// import '../Assets/ErrorPage.css'
+import '../Assets/ErrorPage.css'
 
 const ErrorPage = () => {
     return (
