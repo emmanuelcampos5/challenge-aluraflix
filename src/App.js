@@ -37,11 +37,16 @@ function App() {
     buscar("/Video", actualizarColaboradores)
   }, [])
 
+  const eliminarVideo = (id) => {
+    const nuevosVideos = colaboradores.filter((colaborador) => colaborador.id !== id)
+    actualizarColaboradores(nuevosVideos);
+  }
+
   return (
     <Router>
       <Header></Header>
       <Routes>
-        <Route path='/' element={<Home categorias={categorias} colaboradores={colaboradores}></Home>}></Route>
+        <Route path='/' element={<Home categorias={categorias} colaboradores={colaboradores} eliminarVideo={eliminarVideo}></Home>}></Route>
         <Route path='/NuevoVideo' element={<Formulario categorias={categorias} registrarColaborador={registrarColaborador}></Formulario>}></Route>
         <Route path='*' element={<ErrorPage></ErrorPage>}></Route>
       </Routes>

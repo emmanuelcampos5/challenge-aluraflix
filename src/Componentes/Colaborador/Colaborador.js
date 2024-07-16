@@ -6,7 +6,7 @@ const Colaborador = (props) => {
             <img src={props.datos.imagen} className="card-img-top" alt="imagenColaborador"></img>
         </div>
         <div className="card-body" style={{border: `5px solid ${props.colorPrimario}`}}>
-            <button className="btn btn-primary" onClick={() => console.log("asd")}>Eliminar</button>
+            <button className="btn btn-primary" onClick={() => props.eliminarVideo(props.datos.id)}>Eliminar</button>
             <button className="btn btn-primary">Editar</button>
         </div>
     </div>

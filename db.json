@@ -39,6 +39,22 @@
       "imagen": "https://www.nosotras.com.mx/wp-content/uploads/2023/10/NewJeans-1.jpg",
       "video": "asdas",
       "Descripcion": "asdasd"
+    },
+    {
+      "id": "56c0",
+      "titulo": "asdasd",
+      "categoria": "INNOVACION Y GESTION",
+      "imagen": "https://img2.yna.co.kr/etc/inner/SP/2023/12/15/ASP20231215001100883_02_i_P2.jpg",
+      "video": "asdsd",
+      "Descripcion": "asd"
+    },
+    {
+      "id": "99e2",
+      "titulo": "asdasd",
+      "categoria": "FRONT END",
+      "imagen": "https://www.nosotras.com.mx/wp-content/uploads/2023/10/NewJeans-1.jpg",
+      "video": "asdd",
+      "Descripcion": "asd"
     }
   ]
 }
