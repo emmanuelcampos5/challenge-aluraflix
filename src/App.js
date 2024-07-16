@@ -6,6 +6,7 @@ import {buscar, post, borrar, actualizar} from './Api/Api';
 
 import { Route, BrowserRouter as Router, Routes } from 'react-router-dom';
 import { useEffect, useState } from 'react';
+import Footer from './Componentes/Footer/Footer';
 
 function App() {
   const [categorias] = useState([
@@ -50,6 +51,7 @@ function App() {
         <Route path='/NuevoVideo' element={<Formulario categorias={categorias} registrarColaborador={registrarColaborador}></Formulario>}></Route>
         <Route path='*' element={<ErrorPage></ErrorPage>}></Route>
       </Routes>
+      <Footer></Footer>
     </Router>
   );
 }
