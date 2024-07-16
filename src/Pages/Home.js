@@ -7,7 +7,7 @@ const Home = (props) => {
         <Banner></Banner>
         {
             props.categorias.map((categoria) => <Categoria categoria={categoria} key={categoria.titulo}
-                // colaboradores={colaboradores.filter(colaborador => colaborador.equipo === equipo.titulo)}
+                colaboradores={props.colaboradores.filter(colaborador => colaborador.categoria === categoria.titulo)}
                 // eliminarColaborador={eliminarColaborador}
             />
             )

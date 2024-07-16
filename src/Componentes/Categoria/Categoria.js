@@ -1,14 +1,17 @@
+import Colaborador from "../Colaborador/Colaborador"
 import "./Categoria.css"
 
 
 const Categoria = (props) =>{
-    const { colorPrimario, colorSecundario, titulo, id } = props.categoria
-    // const { colaboradores, eliminarColaborador} = props
+    const { colorPrimario, titulo, id } = props.categoria
+    const {colaboradores} = props
 
     return <section className="categoria">
-        <h3 style={{background: colorPrimario}}>{props.categoria.titulo}</h3>
+        <h3 style={{background: colorPrimario}}>{titulo}</h3>
         <div className="colaboradores">
-
+            {
+                colaboradores.map((colaborador) => <Colaborador datos = {colaborador}></Colaborador>)
+            }
         </div>
     </section>
 }

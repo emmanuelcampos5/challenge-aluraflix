@@ -13,6 +13,8 @@ const FormularioVideo = (props) => {
     const [Video, actualizarVideo] = useState("")
     const [Descripcion, actualizarDescripcion] = useState("")
 
+    const {registrarColaborador} = props
+
     const manejarEnvio = (e) => {
         e.preventDefault();
         let datosEnviar = {
@@ -22,6 +24,7 @@ const FormularioVideo = (props) => {
             video: Video,
             Descripcion: Descripcion
         }
+        registrarColaborador(datosEnviar)
     }
 
     return <section className="formulario m-5">
