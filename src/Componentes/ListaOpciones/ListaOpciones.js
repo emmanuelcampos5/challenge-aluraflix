@@ -5,7 +5,7 @@ const ListaOpciones = (props) => {
         props.actualizarCategoria(e.target.value)
     }
 
-    return <div className="lista-opciones">
+    return <div className="inputContainer m-4">
         <label>Categorias</label>
         <select value={props.valor} onChange={manejarCambio}>
             {props.categorias.map((categoria, index) => <option key={index} value={categoria.titulo}>{categoria.titulo}</option>)}
