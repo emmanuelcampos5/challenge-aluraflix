@@ -6,7 +6,7 @@ const Home = (props) => {
     return <>
         <Banner></Banner>
         {
-            props.categorias.map((categoria) => <Categoria categoria={categoria} key={categoria.titulo}
+            props.categorias.map((categoria) => <Categoria key={categoria.id} categoria={categoria}
                 colaboradores={props.colaboradores.filter(colaborador => colaborador.categoria === categoria.titulo)}
                 // eliminarColaborador={eliminarColaborador}
             />

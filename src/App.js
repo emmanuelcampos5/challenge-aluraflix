@@ -10,14 +10,17 @@ import { useEffect, useState } from 'react';
 function App() {
   const [categorias] = useState([
     {
+      id: "1",
       titulo: "FRONT END",
       colorPrimario: "#6BD1FF",
     },
     {
+      id: "2",
       titulo: "BACK END",
       colorPrimario: "#00C86F",
     },
     {
+      id: "3",
       titulo: "INNOVACION Y GESTION",
       colorPrimario: "#FFBA05",
     }
