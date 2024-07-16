@@ -3,6 +3,7 @@ import Categoria from '../Componentes/Categoria/Categoria'
 
 
 const Home = (props) => {
+    console.log(props.colaboradores.filter(colaborador => colaborador.categoria === "FRONT END"))
     return <>
         <Banner></Banner>
         {

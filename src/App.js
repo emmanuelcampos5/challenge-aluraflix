@@ -2,7 +2,7 @@ import Home from './Pages/Home';
 import ErrorPage from './Pages/ErrorPage';
 import Header from './Componentes/Header/Header';
 import Formulario from './Componentes/FormularioVideo/FormularioVideo';
-import {buscar} from './Api/Api';
+import {buscar, post} from './Api/Api';
 
 import { Route, BrowserRouter as Router, Routes } from 'react-router-dom';
 import { useEffect, useState } from 'react';
@@ -27,11 +27,12 @@ function App() {
 
   const registrarColaborador = (colaborador) => {
     actualizarColaboradores([...colaboradores, colaborador])
+    post("/Video", colaborador)
   }
 
   useEffect(() => {
     buscar("/Video", actualizarColaboradores)
-  }, ["/Video"])
+  }, [])
 
   return (
     <Router>

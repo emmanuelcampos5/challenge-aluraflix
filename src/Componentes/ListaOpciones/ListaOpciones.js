@@ -8,7 +8,6 @@ const ListaOpciones = (props) => {
     return <div className="lista-opciones">
         <label>Categorias</label>
         <select value={props.valor} onChange={manejarCambio}>
-            <option value="" disabled defaultValue="" hidden>Seleccionar Categoria</option>
             {props.categorias.map((categoria, index) => <option key={index} value={categoria.titulo}>{categoria.titulo}</option>)}
         </select>
     </div>

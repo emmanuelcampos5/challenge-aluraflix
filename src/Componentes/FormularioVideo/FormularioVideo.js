@@ -8,7 +8,7 @@ import Boton from "../Boton/Boton"
 const FormularioVideo = (props) => {
 
     const [Titulo, actualizarTitulo] = useState("")
-    const [Categoria, actualizarCategoria] = useState("")
+    const [Categoria, actualizarCategoria] = useState("FRONT END")
     const [Imagen, actualizarImagen] = useState("")
     const [Video, actualizarVideo] = useState("")
     const [Descripcion, actualizarDescripcion] = useState("")
@@ -16,10 +16,9 @@ const FormularioVideo = (props) => {
     const {registrarColaborador} = props
 
     const manejarEnvio = (e) => {
-        e.preventDefault();
         let datosEnviar = {
             titulo: Titulo,
-            Categoria: Categoria,   
+            categoria: Categoria,   
             imagen: Imagen,
             video: Video,
             Descripcion: Descripcion
