@@ -7,7 +7,7 @@ const Home = (props) => {
         {
             props.categorias.map((categoria) => <Categoria key={categoria.id} categoria={categoria}
                 colaboradores={props.colaboradores.filter(colaborador => colaborador.categoria === categoria.titulo)}
-                eliminarVideo={props.eliminarVideo} categorias={props.categorias}
+                eliminarVideo={props.eliminarVideo} actualizarVideo={props.actualizarVideo} categorias={props.categorias}
             />
             )
         }

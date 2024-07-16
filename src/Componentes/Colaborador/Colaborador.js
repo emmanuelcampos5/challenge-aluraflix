@@ -10,7 +10,7 @@ const Colaborador = (props) => {
             <button className="btn btn-primary" onClick={() => props.eliminarVideo(props.datos.id)}>Eliminar</button>
             <button className="btn btn-primary" data-bs-toggle="modal" data-bs-target={`#modalEditar${props.datos.id}`}>Editar</button>
         </div>
-        <ModalEditar id={`modalEditar${props.datos.id}`} video={props.datos} categorias={props.categorias}/>
+        <ModalEditar id={`modalEditar${props.datos.id}`} video={props.datos} categorias={props.categorias} actualizarVideo={props.actualizarVideo}/>
     </div>
 }
 
