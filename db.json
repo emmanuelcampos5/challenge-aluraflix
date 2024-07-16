@@ -1,14 +1,6 @@
 {
   "Video": [
     {
-      "id": "2sd",
-      "titulo": "Mi primer Video",
-      "categoria": "FRONT END",
-      "imagen": "https://img2.yna.co.kr/etc/inner/SP/2023/12/15/ASP20231215001100883_02_i_P2.jpg",
-      "video": "https://youtu.be/86fJXRuP6Ko",
-      "descripcion": "Video de prueba"
-    },
-    {
       "id": "cb45",
       "titulo": "asdasd",
       "categoria": "INNOVACION Y GESTION",
@@ -25,36 +17,12 @@
       "Descripcion": "asd"
     },
     {
-      "id": "7531",
-      "titulo": "asd",
-      "categoria": "BACK END",
-      "imagen": "https://www.nosotras.com.mx/wp-content/uploads/2023/10/NewJeans-1.jpg",
-      "video": "asd",
-      "Descripcion": "asd"
-    },
-    {
       "id": "bb04",
       "titulo": "asdasdasdasd",
       "categoria": "FRONT END",
       "imagen": "https://www.nosotras.com.mx/wp-content/uploads/2023/10/NewJeans-1.jpg",
       "video": "asdas",
       "Descripcion": "asdasd"
-    },
-    {
-      "id": "56c0",
-      "titulo": "asdasd",
-      "categoria": "INNOVACION Y GESTION",
-      "imagen": "https://img2.yna.co.kr/etc/inner/SP/2023/12/15/ASP20231215001100883_02_i_P2.jpg",
-      "video": "asdsd",
-      "Descripcion": "asd"
-    },
-    {
-      "id": "99e2",
-      "titulo": "asdasd",
-      "categoria": "FRONT END",
-      "imagen": "https://www.nosotras.com.mx/wp-content/uploads/2023/10/NewJeans-1.jpg",
-      "video": "asdd",
-      "Descripcion": "asd"
     }
   ]
 }

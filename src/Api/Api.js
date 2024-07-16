@@ -14,7 +14,7 @@ export const post = async (url, datosEnviar) => {
 }
 
 export const borrar = async (url, id) => {
-    await api.delete(url, id);
+    await api.delete(`${url}/${id}`);
 }
 
 export const actualizar = async (url, datosEnviar) => {

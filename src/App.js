@@ -2,7 +2,7 @@ import Home from './Pages/Home';
 import ErrorPage from './Pages/ErrorPage';
 import Header from './Componentes/Header/Header';
 import Formulario from './Componentes/FormularioVideo/FormularioVideo';
-import {buscar, post, borrar, actualizar} from './Api/Api';
+import {buscar, post, borrar} from './Api/Api';
 
 import { Route, BrowserRouter as Router, Routes } from 'react-router-dom';
 import { useEffect, useState } from 'react';
@@ -38,9 +38,10 @@ function App() {
     buscar("/Video", actualizarColaboradores)
   }, [])
 
-  const eliminarVideo = (id) => {
+  const eliminarVideo = async (id) => {
     const nuevosVideos = colaboradores.filter((colaborador) => colaborador.id !== id)
-    actualizarColaboradores(nuevosVideos);
+    await actualizarColaboradores(nuevosVideos);
+    borrar("/Video", id);
   }
 
   return (
