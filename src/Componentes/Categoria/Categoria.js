@@ -7,8 +7,8 @@ const Categoria = (props) =>{
     const {colaboradores} = props
 
     return <section className="categoria">
-        <h3 style={{background: colorPrimario}}>{titulo}</h3>
-        <div className="colaboradores">
+        <h3 className="text-center" style={{background: colorPrimario}}>{titulo}</h3>
+        <div className="colaboradores d-flex justify-content-center gap-5 row">
             {
                 colaboradores.map((colaborador) => (<Colaborador key={colaborador.id} colorPrimario={colorPrimario} datos = {colaborador} eliminarVideo={props.eliminarVideo}></Colaborador>))
             }
