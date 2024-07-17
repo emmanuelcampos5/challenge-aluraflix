@@ -1,27 +1,76 @@
 {
   "Video": [
     {
-      "id": "839a",
-      "titulo": "111",
-      "categoria": "BACK END",
-      "imagen": "https://www.nosotras.com.mx/wp-content/uploads/2023/10/NewJeans-1.jpg",
-      "video": "111"
-    },
-    {
-      "id": "bb04",
-      "titulo": "1111111111",
-      "categoria": "INNOVACION Y GESTION",
-      "imagen": "https://www.nosotras.com.mx/wp-content/uploads/2023/10/NewJeans-1.jpg",
-      "video": "11111111",
-      "Descripcion": "111"
-    },
-    {
-      "id": "d318",
-      "titulo": "11",
+      "id": "9bdc",
+      "titulo": "Los roles en frontend",
       "categoria": "FRONT END",
-      "imagen": "https://www.nosotras.com.mx/wp-content/uploads/2023/10/NewJeans-1.jpg",
-      "video": "asd",
-      "Descripcion": "asd"
+      "imagen": "https://i.ytimg.com/vi/N8mFHB7JDkw/maxresdefault.jpg",
+      "video": "https://youtu.be/N8mFHB7JDkw",
+      "Descripcion": "hay grandes oportunidades laborales para los desarrolladores de Frontend"
+    },
+    {
+      "id": "51f7",
+      "titulo": "Qué es Frontend en 1 minuto",
+      "categoria": "FRONT END",
+      "imagen": "https://i.ytimg.com/vi/50RbVujPPGs/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLDV_QDqFwHZgNBhaENBB4fcYsJRsA",
+      "video": "https://youtu.be/Cw-sRswGM7g",
+      "Descripcion": "Qué es Frontend en 1 minuto"
+    },
+    {
+      "id": "24c2",
+      "titulo": "Paso a paso para ser programador frontend en 2023",
+      "categoria": "FRONT END",
+      "imagen": "https://i.ytimg.com/vi/6D25A8_50Jk/maxresdefault.jpg",
+      "video": "https://youtu.be/6D25A8_50Jk",
+      "Descripcion": "El frontend es una de las partes más importantes del desarrollo de software"
+    },
+    {
+      "id": "5e64",
+      "titulo": "Desarrollador BACK-END: ruta de aprendizaje",
+      "categoria": "BACK END",
+      "imagen": "https://i.ytimg.com/vi/8WcLQ57_Hnw/maxresdefault.jpg",
+      "video": "https://youtu.be/8WcLQ57_Hnw",
+      "Descripcion": "Conoce las tecnologías que tiene que aprender un desarrollador web back-end"
+    },
+    {
+      "id": "221c",
+      "titulo": "Los roles en backend",
+      "categoria": "BACK END",
+      "imagen": "https://i.ytimg.com/vi/ZTsi1e-VJIU/maxresdefault.jpg",
+      "video": "https://youtu.be/ZTsi1e-VJIU",
+      "Descripcion": "El backend es todo lo que ocurre en el lado del servidor para que una aplicación web funcione"
+    },
+    {
+      "id": "8f04",
+      "titulo": "Panel: Cómo iniciar en el desarrollo Backend",
+      "categoria": "BACK END",
+      "imagen": "https://i.ytimg.com/vi/OCUAjnu4OnU/maxresdefault.jpg",
+      "video": "https://youtu.be/OCUAjnu4OnU",
+      "Descripcion": "Panel: Cómo iniciar en el desarrollo Backend"
+    },
+    {
+      "id": "48da",
+      "titulo": "¿Qué son las Soft Skills?",
+      "categoria": "INNOVACION Y GESTION",
+      "imagen": "https://i.ytimg.com/vi/vhwspfvI52k/maxresdefault.jpg",
+      "video": "https://youtu.be/vhwspfvI52k",
+      "Descripcion": "¿Qué son las Softskills y por qué es tan importante desarrollarlas para posicionarse en el mercado laboral?"
+    },
+    {
+      "id": "1eb2",
+      "titulo": "7 Soft Skills más deseadas por las empresas",
+      "categoria": "INNOVACION Y GESTION",
+      "imagen": "https://i.ytimg.com/vi/YhR7Zp8NUzE/maxresdefault.jpg",
+      "video": "https://youtu.be/YhR7Zp8NUzE",
+      "Descripcion": "Seguro que ya escuchaste hablar sobre las Soft Skills, pero ¿sabes cuáles son las 7 más buscadas por las empresas?"
+    },
+    {
+      "id": "39f8",
+      "titulo": "¿Qué son las metodologias ágiles?",
+      "categoria": "INNOVACION Y GESTION",
+      "imagen": "https://i.ytimg.com/vi/6N3OkLCfK-0/maxresdefault.jpg",
+      "video": "https://youtu.be/6N3OkLCfK-0",
+      "Descripcion": "En este video nuestra invitada, Andyara, nos explicará que són las muy conocidas hoy en día metodologias ágiles"
     }
   ]
 }

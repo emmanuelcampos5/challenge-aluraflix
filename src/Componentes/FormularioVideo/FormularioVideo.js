@@ -34,7 +34,7 @@ const FormularioVideo = (props) => {
             <ListaOpciones categorias = {props.categorias} actualizarCategoria={actualizarCategoria}></ListaOpciones>
             <Input placeholder={"El enlace es obligatorio"} required={true} titulo={"Imagen"} valor={Imagen} actualizarValor={actualizarImagen}></Input>
             <Input placeholder={"Ingrese el enlace del video"} required={true} titulo={"Video"} valor={Video} actualizarValor={actualizarVideo}></Input>
-            <Input placeholder={"Ingrese el Nombre"} required={true} titulo={"Descripcion"} valor={Descripcion} actualizarValor={actualizarDescripcion}></Input>
+            <Input placeholder={"Ingrese una descripcion"} required={true} titulo={"Descripcion"} valor={Descripcion} actualizarValor={actualizarDescripcion}></Input>
             <Boton></Boton>
         </form>
     </section>

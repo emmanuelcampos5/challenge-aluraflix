@@ -28,7 +28,7 @@ const ModalEditar = (props) => {
             <div className="modal-dialog modal-lg">
                 <div className="modal-content">
                     <div className="modal-header">
-                        <h3 className="modal-title" id="staticBackdropLabel">{props.video.titulo}</h3>
+                        <h3 className="modal-title col" id="staticBackdropLabel">{props.video.titulo}</h3>
                         <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div className="modal-body">
@@ -37,7 +37,7 @@ const ModalEditar = (props) => {
                             <ListaOpciones categorias={props.categorias} actualizarCategoria={actualizarCategoria}></ListaOpciones>
                             <Input placeholder={"El enlace es obligatorio"} required={true} titulo={"Imagen"} valor={Imagen} actualizarValor={actualizarImagen}></Input>
                             <Input placeholder={"Ingrese el enlace del video"} required={true} titulo={"Video"} valor={Video} actualizarValor={actualizarVideo}></Input>
-                            <Input placeholder={"Ingrese el Nombre"} required={true} titulo={"Descripcion"} valor={Descripcion} actualizarValor={actualizarDescripcion}></Input>
+                            <Input placeholder={"Ingrese una descripcion"} required={true} titulo={"Descripcion"} valor={Descripcion} actualizarValor={actualizarDescripcion}></Input>
                             <div className="d-flex justify-content-center">
                                 <button type="button" className="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
                                 <button type="submit" className="btn btn-primary" data-bs-dismiss="modal">Editar</button>

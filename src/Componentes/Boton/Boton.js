@@ -1,7 +1,7 @@
 
 const Boton = () =>{
     return (
-        <button>Crear</button>
+        <button className="btn btn-success">Crear</button>
     )
 }
 
