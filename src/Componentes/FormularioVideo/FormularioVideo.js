@@ -16,7 +16,6 @@ const FormularioVideo = (props) => {
     const {registrarColaborador} = props
 
     const manejarEnvio = (e) => {
-        e.preventDefault()
         let datosEnviar = {
             titulo: Titulo,
             categoria: Categoria,   

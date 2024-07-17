@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react'
+import { useState } from 'react'
 import './ModalEditar.css'
 import Input from '../Input/Input'
 import ListaOpciones from '../ListaOpciones/ListaOpciones'
@@ -9,15 +9,6 @@ const ModalEditar = (props) => {
     const [Imagen, actualizarImagen] = useState("")
     const [Video, actualizarVideo] = useState("")
     const [Descripcion, actualizarDescripcion] = useState("")
-
-    useEffect(() => {
-        actualizarTitulo(props.video.titulo);
-        actualizarCategoria(props.video.categoria);
-        actualizarImagen(props.video.imagen);
-        actualizarVideo(props.video.video);
-        actualizarDescripcion(props.video.descripcion);
-
-    }, [props.video]);
 
     const manejarEnvio = (e) => {
         e.preventDefault()

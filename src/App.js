@@ -11,17 +11,17 @@ import Footer from './Componentes/Footer/Footer';
 function App() {
   const [categorias] = useState([
     {
-      id: "1",
+      id: "1asd",
       titulo: "FRONT END",
       colorPrimario: "#6BD1FF",
     },
     {
-      id: "2",
+      id: "2csd",
       titulo: "BACK END",
       colorPrimario: "#00C86F",
     },
     {
-      id: "3",
+      id: "3gfrg",
       titulo: "INNOVACION Y GESTION",
       colorPrimario: "#FFBA05",
     }
